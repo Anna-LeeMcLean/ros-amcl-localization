@@ -1,5 +1,5 @@
 # ros-amcl-localization
-Localization of a turtlebot using Adaptive Monte Carlo Localization ROS package. 'Where Am I?' project done as a part of the Udacity Robotics Software Engineering Nanodegree.
+Localization of a turtlebot using [Adaptive Monte Carlo Localization ROS package](http://wiki.ros.org/amcl). 'Where Am I?' project done as a part of the Udacity Robotics Software Engineering Nanodegree.
 
 
 This application creates a 2D map of a custom Gazebo world and localizes a turtlebot within it as the robot drives around. 
