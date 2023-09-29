@@ -10,10 +10,15 @@ This application launches a 2D map of a custom Gazebo world and localizes a mobi
 Clone the repository, install required dependencies and build the package:
 
 `git clone https://github.com/Anna-LeeMcLean/ros-amcl-localization.git`
+
 `cd ros-amcl-localization`
+
 `rosdep update`
+
 `rosdep install --from-paths src -y`
+
 `catkin_make`
+
 `source devel/setup.bash`
 
 To launch the Gazebo world with the robot:
