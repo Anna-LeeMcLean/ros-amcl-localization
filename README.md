@@ -2,7 +2,18 @@
 Localization of a turtlebot using [Adaptive Monte Carlo Localization ROS package](http://wiki.ros.org/amcl). 'Where Am I?' project done as a part of the Udacity Robotics Software Engineering Nanodegree.
 
 
-This application creates a 2D map of a custom Gazebo world and localizes a turtlebot within it as the robot drives around. 
+This application launches a 2D map of a custom Gazebo world and localizes a mobile robot within it as the robot drives around. 
+
+Instructions:
+
+Clone the repository, install required dependencies and build the package:
+
+`git clone https://github.com/Anna-LeeMcLean/ros-amcl-localization.git`
+`cd ros-amcl-localization`
+`rosdep update`
+`rosdep install --from-paths src -y`
+`catkin_make`
+`source devel/setup.bash`
 
 To launch the Gazebo world with the robot:
 
